@@ -1,13 +1,13 @@
 //
-//  MainViewController.swift
+//  LanguageViewController.swift
 //  Protocol Delegate
 //
-//  Created by Priya Gnaneshwaran on 13/05/25.
+//  Created by Priya Gnaneshwaran on 19/06/25.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
+class LanguageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

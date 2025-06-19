@@ -9,9 +9,16 @@ import UIKit
 
 class MainTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var baseView: UIView!
+    @IBOutlet weak var sideView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.baseView.layer.masksToBounds = true
+        self.baseView.layer.cornerRadius = 30
+        self.sideView.layer.masksToBounds = true
+        self.sideView.layer.cornerRadius = 30
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
